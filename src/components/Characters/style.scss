@@ -1,5 +1,6 @@
 .news-container {
-    width:80%;
+    width:calc(100% - 300px);
+    min-height:100vh;
     display:flex;
     justify-content: flex-start;
     align-items: center;

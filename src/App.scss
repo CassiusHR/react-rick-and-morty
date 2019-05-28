@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,400,600&display=swap');
-
+html{
+  width:100%;
+  height:100%;
+}
 h1,h2,h3,h4,h5,h6,p,input{
   font-family: 'Source Sans Pro';
 }
 
 .App {
   position:relative;
+  height:100%;
   .page-container {
     display:flex;
     flex-direction:row;
@@ -17,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p,input{
 }
 .page {
   position: absolute;
-  right: 0;
+  left: 300px;
 }
 
 /* simple - enter transition 300ms, exit 150ms */

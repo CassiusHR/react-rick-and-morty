@@ -1,9 +1,9 @@
 .inicio-container {
-    width:80%;
-    height:100vh;
+    width:calc(100% - 300px);
+    min-height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgb(232, 232, 232);
+    background: rgb(190, 64, 64);
 }

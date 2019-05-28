@@ -1,6 +1,6 @@
 .about-container {
-    width:80%;
-    height:100vh;
+    width:calc(100% - 300px);
+    min-height:100vh;
     display:flex;
     justify-content: space-around;
     align-items: center;
