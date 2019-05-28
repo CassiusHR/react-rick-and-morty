@@ -1,0 +1,22 @@
+.news-container {
+    width:80%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(184, 202, 218);
+    .wrapper {
+        width:100%;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top:20px;
+        .news-item{
+            width:90%;
+            height:200px;
+            background:white;
+            margin-bottom:20px;
+        }
+    }
+}

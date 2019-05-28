@@ -1,0 +1,23 @@
+.header-container {
+    width:20%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background:rgba(255,255,255,0.3);
+    z-index:99;
+    a {
+        margin:10px;
+        color:black;
+        font-size:36px;
+        text-decoration: none;
+        transition:transform 0.4s ease,opacity 1s ease;
+        &:hover{
+            transform:scale(1.2);
+        }
+    }
+}
