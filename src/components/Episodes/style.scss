@@ -1,24 +1,22 @@
-.about-container {
+.episodes-container {
     width:calc(100% - 300px);
     min-height:100vh;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     background: rgb(232, 180, 180);
-    .box-container {
-        height:100%;
+    .wrapper {
         width:100%;
-        display:flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        .box {
-            height:300px;
-            width:200px;
-            border-radius:6px;
-            background: rgb(201, 134, 134);
+        .episode-item {
+            opacity:0;
+            width:90%;
+            height:100px;
+            background:white;
+            padding:10px;
+            margin:10px;
         }
     }
+        
     
 }
