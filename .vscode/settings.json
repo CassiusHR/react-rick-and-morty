@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace"
+}
